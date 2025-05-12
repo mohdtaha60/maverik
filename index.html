@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maverick School - Nurturing Young Minds, Building Bright Futures</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  
+  <!-- AOS Library for scroll animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/sections.css" />
+  <link rel="stylesheet" href="styles/animations.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#page-top">
+        <img src="assets/images/NAME AND LOGO.png" alt="" class="logo-img">
+        <!-- <span>Maverick l</span> -->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" 
+              aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#academics">Academics</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#campus-life">Campus Life</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link contact-link" href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <h1>Nurturing Young Minds, Building Bright Futures</h1>
+      <p>Empowering students through holistic education in a vibrant and inclusive environment.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary btn-glow">Contact Us</a>
+        <a href="#about" class="btn btn-outline-light">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-overlay"></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <h2>About <span class="text-primary">Us</span></h2>
+        <p class="section-subheading">Our Legacy of Excellence Since 1985</p>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="about-image">
+            <img src="assets/images/BUILDING.png" alt="School Building" class="img-fluid rounded shadow">
+            <div class="experience-badge">
+              <span>15+</span>
+              <span>Years of Excellence</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="about-content">
+            <p class="lead">Maverick Concept High School stands as a beacon of educational excellence, blending traditional values with modern teaching methodologies.</p>
+            <p>Founded with a vision to nurture young minds and shape them into responsible global citizens, we have consistently maintained high standards of academic excellence while focusing on character building and holistic development.</p>
+            
+            <div class="core-values">
+              <div class="row">
+                <div class="col-6 col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="value-card">
+                    <div class="value-icon">
+                      <i class="bi bi-mortarboard"></i>
+                    </div>
+                    <h5>Excellence</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="value-card">
+                    <div class="value-icon">
+                      <i class="bi bi-lightbulb"></i>
+                    </div>
+                    <h5>Innovation</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="value-card">
+                    <div class="value-icon">
+                      <i class="bi bi-shield-check"></i>
+                    </div>
+                    <h5>Integrity</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="value-card">
+                    <div class="value-icon">
+                      <i class="bi bi-clock-history"></i>
+                    </div>
+                    <h5>Discipline</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Academics Section -->
+  <section id="academics" class="academics-section">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <h2>Our <span class="text-primary">Academics</span></h2>
+        <p class="section-subheading">Comprehensive Educational Programs</p>
+      </div>
+      
+      <ul class="nav nav-pills mb-5 justify-content-center" id="academicTabs" role="tablist" data-aos="fade-up">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pre-primary-tab" data-bs-toggle="pill" data-bs-target="#pre-primary" type="button" 
+                  role="tab" aria-controls="pre-primary" aria-selected="true">Pre-Primary</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="primary-tab" data-bs-toggle="pill" data-bs-target="#primary" type="button" 
+                  role="tab" aria-controls="primary" aria-selected="false">Primary</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="secondary-tab" data-bs-toggle="pill" data-bs-target="#secondary" type="button" 
+                  role="tab" aria-controls="secondary" aria-selected="false">Secondary</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="co-curricular-tab" data-bs-toggle="pill" data-bs-target="#co-curricular" type="button" 
+                  role="tab" aria-controls="co-curricular" aria-selected="false">Co-Curricular</button>
+        </li>
+      </ul>
+      
+      <div class="tab-content" id="academicTabsContent">
+        <!-- Pre-Primary Tab -->
+        <div class="tab-pane fade show active" id="pre-primary" role="tabpanel" aria-labelledby="pre-primary-tab">
+          <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+              <img src="https://images.pexels.com/photos/8535214/pexels-photo-8535214.jpeg" alt="Pre-Primary Education" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+              <h3>Nurturing Curiosity (Ages 3-5)</h3>
+              <p class="lead">Our Pre-Primary program creates a foundation of joyful learning through play-based activities.</p>
+              <ul class="feature-list">
+                <li><i class="bi bi-check-circle"></i> Activity-based learning approach</li>
+                <li><i class="bi bi-check-circle"></i> Focus on social and emotional development</li>
+                <li><i class="bi bi-check-circle"></i> Introduction to language and numbers through songs and stories</li>
+                <li><i class="bi bi-check-circle"></i> Safe and stimulating environment</li>
+              </ul>
+              <p>We believe that early education should ignite curiosity and foster a love for learning that lasts a lifetime.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Primary Tab -->
+        <div class="tab-pane fade" id="primary" role="tabpanel" aria-labelledby="primary-tab">
+          <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+              <img src="https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg" alt="Primary Education" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+              <h3>Building Strong Foundations (Classes 1-5)</h3>
+              <p class="lead">Our Primary program focuses on developing core academic skills while nurturing creativity and critical thinking.</p>
+              <ul class="feature-list">
+                <li><i class="bi bi-check-circle"></i> Comprehensive curriculum covering all subjects</li>
+                <li><i class="bi bi-check-circle"></i> Project-based learning approach</li>
+                <li><i class="bi bi-check-circle"></i> Regular assessments with constructive feedback</li>
+                <li><i class="bi bi-check-circle"></i> Introduction to digital literacy and coding</li>
+              </ul>
+              <p>We create an environment where children develop confidence, curiosity, and a strong foundation in core subjects.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Secondary Tab -->
+        <div class="tab-pane fade" id="secondary" role="tabpanel" aria-labelledby="secondary-tab">
+          <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+              <img src="https://images.pexels.com/photos/8471813/pexels-photo-8471813.jpeg" alt="Secondary Education" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+              <h3>Preparing Future Leaders (Classes 6-12)</h3>
+              <p class="lead">Our Secondary program prepares students for academic excellence and leadership in a global context.</p>
+              <ul class="feature-list">
+                <li><i class="bi bi-check-circle"></i> Rigorous academic curriculum aligned with national standards</li>
+                <li><i class="bi bi-check-circle"></i> Specialized faculty for each subject area</li>
+                <li><i class="bi bi-check-circle"></i> Career guidance and college preparation</li>
+                <li><i class="bi bi-check-circle"></i> Advanced science and computer labs</li>
+              </ul>
+              <p>We focus on developing analytical skills, subject mastery, and a deep understanding of concepts that prepare students for higher education.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Co-Curricular Tab -->
+        <div class="tab-pane fade" id="co-curricular" role="tabpanel" aria-labelledby="co-curricular-tab">
+          <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+              <img src="https://images.pexels.com/photos/8613219/pexels-photo-8613219.jpeg" alt="Co-Curricular Activities" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+              <h3>Holistic Development</h3>
+              <p class="lead">Our Co-Curricular program ensures well-rounded development beyond academics.</p>
+              <ul class="feature-list">
+                <li><i class="bi bi-check-circle"></i> Sports: Cricket, Basketball, Badminton, Athletics</li>
+                <li><i class="bi bi-check-circle"></i> Arts: Music, Dance, Drama, Fine Arts</li>
+                <li><i class="bi bi-check-circle"></i> Clubs: Robotics, Debate, Eco Club, Literary Society</li>
+                <li><i class="bi bi-check-circle"></i> Yoga and meditation for mental well-being</li>
+              </ul>
+              <p>We believe that excellence in co-curricular activities builds confidence, teamwork, and essential life skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Campus Life Section with Parallax -->
+  <!-- <section id="campus-life" class="campus-life-section">
+    <div class="parallax-container">
+      <div class="container">
+        <div class="section-header text-center text-white" data-aos="fade-up">
+          <h2 style="color: white;">Campus <span class="text-warning">Life</span></h2>
+          <p style="color: white;" class="section-subheading">Experience Our Vibrant Learning Environment</p>
+        </div>
+        
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="campus-card">
+              <div class="campus-icon">
+                <i class="bi bi-book"></i>
+              </div>
+              <h4>Modern Library</h4>
+              <p>Over 20,000 books and digital resources</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="campus-card">
+              <div class="campus-icon">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h4>Tech Labs</h4>
+              <p>State-of-the-art computer and science labs</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="campus-card">
+              <div class="campus-icon">
+                <i class="bi bi-dribbble"></i>
+              </div>
+              <h4>Sports Facilities</h4>
+              <p>Multi-purpose courts and playing fields</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="campus-card">
+              <div class="campus-icon">
+                <i class="bi bi-music-note-beamed"></i>
+              </div>
+              <h4>Performing Arts</h4>
+              <p>Dedicated spaces for music, dance, and drama</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="campus-gallery">
+          <div class="row g-3" data-aos="fade-up">
+            <div class="col-md-4">
+              <div class="campus-image">
+                <img src="https://images.pexels.com/photos/8617584/pexels-photo-8617584.jpeg" alt="Morning Assembly" class="img-fluid">
+                <div class="image-overlay">
+                  <h5>Morning Assembly</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="campus-image">
+                <img src="https://images.pexels.com/photos/8471988/pexels-photo-8471988.jpeg" alt="Science Lab" class="img-fluid">
+                <div class="image-overlay">
+                  <h5>Science Lab</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="campus-image">
+                <img src="https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg" alt="Yoga Class" class="img-fluid">
+                <div class="image-overlay">
+                  <h5>Yoga Class</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <h2>Our <span class="text-primary">Gallery</span></h2>
+        <p class="section-subheading">Glimpses of School Activities</p>
+      </div>
+      
+      <!-- <div class="gallery-filter" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="academics">Academics</button>
+        <button class="filter-btn" data-filter="cultural">Cultural</button>
+        <button class="filter-btn" data-filter="sports">Sports</button>
+      </div> -->
+      
+      <div class="row g-4 gallery-container" data-aos="fade-up">
+        <div class="col-md-4 col-sm-6 gallery-item academics">
+          <a href="https://images.pexels.com/photos/8471764/pexels-photo-8471764.jpeg" class="gallery-link">
+            <img src="assets/images/1.jpg" alt="Science Exhibition" class="img-fluid">
+            <!-- <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h5>Science Exhibition</h5>
+                <p>Annual Science Fair</p>
+              </div>
+            </div> -->
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item cultural">
+          <a href="https://images.pexels.com/photos/8471764/pexels-photo-8471764.jpeg" class="gallery-link">
+            <img src="assets/images/2.jpg" alt="Cultural Program" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item sports">
+          <a href="https://images.pexels.com/photos/8613185/pexels-photo-8613185.jpeg" class="gallery-link">
+            <img src="assets/images/3.jpg" alt="Sports Day" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item academics">
+          <a href="https://images.pexels.com/photos/8471877/pexels-photo-8471877.jpeg" class="gallery-link">
+            <img src="assets/images/4.jpg" alt="Computer Lab" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item cultural">
+          <a href="https://images.pexels.com/photos/8532628/pexels-photo-8532628.jpeg" class="gallery-link">
+            <img src="assets/images/5.jpg" alt="Independence Day" class="img-fluid">
+            <!-- <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h5>Independence Day</h5>
+                <p>National Celebration</p>
+              </div>
+            </div> -->
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item sports">
+          <a href="https://images.pexels.com/photos/8535238/pexels-photo-8535238.jpeg" class="gallery-link">
+            <img src="assets/images/MACERICK PHOTOS.jpg" alt="Yoga Competition" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- founder -->
+  <section class="founder-section text-center text-md-start">
+    <div class="container" data-aos="fade-up">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-4 mb-4 mb-md-0 text-center">
+          <img src="assets/images/AZHER BHAI.png" alt="Founder" class="founder-img shadow">
+        </div>
+        <div class="col-md-5 offset-md-1">
+          <p class="founder-name">Syed Azher Hussain</p>
+          <p class="lead">Founder & CEO</p>
+          <p>Jane is a visionary leader with over a decade of experience in innovation and entrepreneurship. Her passion for building impactful solutions is at the heart of our company.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <h2>Get in <span class="text-primary">Touch</span></h2>
+        <p class="section-subheading">We'd Love to Hear From You</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div>
+                <h5>Our Location</h5>
+                <p>123 Education Road, Knowledge Park, New Delhi, 110001, India</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div>
+                <h5>Phone Number</h5>
+                <p>+91 98765 43210</p>
+                <p>+91 11 2345 6789</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div>
+                <h5>Email Address</h5>
+                <p>admissions@maverickschool.edu</p>
+                <p>info@maverickschool.edu</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="bi bi-clock"></i>
+              </div>
+              <div>
+                <h5>Working Hours</h5>
+                <p>Monday - Friday: 8:00 AM - 4:00 PM</p>
+                <p>Saturday: 9:00 AM - 12:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="map-container mt-5" data-aos="fade-up">
+            <div class="ratio ratio-21x9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448183.73907005717!2d76.81307802753822!3d28.646677259280082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1708012345678!5m2!1sen!2sin" 
+                      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="footer-info">
+            <img src="assets/images/LOGO.png" alt="Maverick Concept High School" class="footer-logo">
+            <h4>Maverick Concept High School</h4>
+            <p>Nurturing young minds and building bright futures since 1985. Committed to excellence in education and holistic development.</p>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#campus-life">Campus Life</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div> -->
+        <!-- <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <h5>Academics</h5>
+          <ul class="footer-links">
+            <li><a href="#pre-primary">Pre-Primary Wing</a></li>
+            <li><a href="#primary">Primary Wing</a></li>
+            <li><a href="#secondary">Secondary Wing</a></li>
+            <li><a href="#co-curricular">Co-Curricular Activities</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Career Counseling</a></li>
+          </ul>
+        </div> -->
+        <!-- <div class="col-lg-3 col-md-6">
+          <h5>Newsletter</h5>
+          <p>Subscribe to our newsletter to get the latest updates.</p>
+          <form class="newsletter-form">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+              <button class="btn btn-primary" type="submit"><i class="bi bi-send"></i></button>
+            </div>
+          </form>
+        </div> -->
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2025 Maverick Concept High School. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p class="footer-quote">"Education is the most powerful weapon which you can use to change the world." —Nelson Mandela</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- AOS Library for scroll animations -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+  <!-- <script src="js/animations.js"></script> -->
+  <script src="js/gallery.js"></script>
+</body>
+</html>
